@@ -2,3 +2,23 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+h1 {
+  position: absolute;
+  width: 600px;
+  height: 118px;
+  left: 27px;
+  top: 123px;
+
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;  
+  font-size: 100px;
+  line-height: 118px;
+/* identical to box height */
+  text-align: center;
+  
+  color: #00d1c3;
+  
+
+}
