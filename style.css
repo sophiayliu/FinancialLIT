@@ -1,24 +1,260 @@
+body {
+  background: linear-gradient(#f9edd7, #eec7ba);
+}
+  
 html, body {
   height: 100%;
   width: 100%;
 }
 
-h1 {
-  position: absolute;
-  width: 600px;
-  height: 118px;
-  left: 27px;
-  top: 123px;
 
-  font-family: 'Italiana';
+/*NAV BAR*/
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 3em;
+  background-color: #f46c6c;
+  overflow: auto;
+}
+
+li {
+  display: inline;
+}
+
+li a {    /* Style hyperlink text in nav bar */ 
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.8em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #f5c8bc86;
+}
+img {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 480px;
+  top: 15px;
+  opacity: 0.7;
+  z-index:-1;
+}
+/*FINANCIALLIT TITLE*/
+h1 {
+  width: 600px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  margin-left: 50px;
+  margin-top: 40px;
+  
+  font-family: 'Italiana', serif;
   font-style: normal;
-  font-weight: 400;  
   font-size: 100px;
-  line-height: 118px;
+  line-height: 100px;
 /* identical to box height */
   text-align: center;
-  
-  color: #00d1c3;
-  
+  color: #000000
+}
 
+/*BEGINNER'S GUIDE...*/
+h2 {
+  width: 800px;
+  height: 48px;
+  font-family: 'Italiana', serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  margin-left: 675px;
+  margin-top: -145px;
+}
+h3{
+  position: absolute;
+  width: 800px;
+  height: 78px;
+  left: 56px;
+  top: 295px;
+  text-align:center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 47px;
+
+color: #000000;
+  position: absolute; 
+  width: 1380px; 
+  height: 119px;
+  left: 30px;
+  top: 282px; 
+  
+   background: linear-gradient(0deg, #fbf8e9, #fbf8e9), #fbf8e9; 
+  }
+
+h4{
+  margin-top: 100px;
+  width: 2560px;
+  height: 100px;
+  left: 56px;
+  top: 295px; 
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 47px;
+
+  color: #000000;
+  position: absolute;
+  width: 1380px;
+  height: 119px;
+  left: 30px;
+  top: 282px;
+/*    background: linear-gradient(0deg, #f8ecec, #f8ecec), #FFE9E4;  */
+  }
+h5{
+  width: 800px;
+  height: 78px;
+  left: 56px;
+  top: 500px;
+  margin-top:200px;
+  text-align:center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 47px;
+
+color: #000000;
+  position: absolute; 
+  width: 1380px; 
+  height: 119px;
+  left: 30px;
+  top: 282px; 
+  
+   background: linear-gradient(0deg, #fbf8e9, #fbf8e9), #fbf8e9;  
+  }
+
+h6{
+  margin-top: 250px;
+  width: 2560px;
+  height: 100px;
+  left: 56px;
+  top: 295px; 
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 47px;
+
+  color: #000000;
+  position: absolute;
+  width: 1380px;
+  height: 119px;
+  left: 30px;
+  top: 282px;
+  background: linear-gradient(0deg, #fbf8e9, #fbf8e9), #fbf8e9;  }
+
+h7 {
+  
+}
+.finLitContainer {
+  padding: 100px;
+}
+
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 47px;
+  color: #000000;
+  margin: auto; 
+  background: linear-gradient(0deg, #fbf8e9, #fbf8e9), #fbf8e9; 
+}
+
+.question {
+  margin-top: 40px;
+  font-size:35px;
+}
+
+/* INVESTING */
+.container{
+  display: inline-block;
+  width: 100%
+}
+
+.topicName {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  font-size: 3rem;
+  font-family: 'Italiana', serif;
+  white-space: nowrap;
+  width: 0px;
+  animation: 
+    typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 400ms steps(43) infinite normal;
+  margin: 10px auto; 
+/*   margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 408px; */ 
+  font-family: 'Italiana', serif;
+  line-height: 100px;
+/* identical to box height */
+  text-align: center;
+  color: #000000;
+
+}
+@keyframes typewriter {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+ @keyframes blinkTextCursor { 
+  from {border-right-color: rgba(255, 255, 255, 0.75);}
+  to   {border-right-color: transparent;}
+} 
+
+.swirl {
+  width: 300px;
+  height: 300px;
+  margin-top:530px;
+  margin-left: 660px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.infoImage {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-top:20px;
+  margin-left: 20px;
+  align-content: center;
+  opacity: 1;
+}
+
+.planText {
+  margin-left: 50px;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.planInput {
+  margin-left: 50px;
+}
+
+h10 {
+  margin-top: 50px;
+  font-size: 36px;
 }

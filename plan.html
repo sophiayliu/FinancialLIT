@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Fjalla+One&family=Italiana&family=Playfair+Display&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Fjalla+One&family=Italiana&family=Playfair+Display&family=Rubik:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <h1 class="topicName">PLAN</h1>
+
+  <!-- NAV BAR -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <ion-icon name="home-outline" id=homeBtn></ion-icon>
+      </a>
+    </div>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="saving.html">SAVING</a></li>
+      <li><a href="spending.html">SPENDING</a></li>
+      <li><a href="investing.html">INVESTING</a></li>
+      <li><a href="plan.html">PLAN</a></li>
+      <li><a href="quiz.html">QUIZ</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <p class="question"> EARNINGS</p>
+  <label class="planText" for="parent">Parents or Guardians:</label><br>
+  <input class="planInput" type="number" id="parent" name="parent"><br>
+
+  <label class="planText" for="jobs">Job(s):</label><br>
+  <input class="planInput" type="number" id="jobs" name="jobs"><br>
+
+  <label class="planText" for="scholarship">Scholarships and Grants:</label><br>
+  <input class="planInput" type="number" id="scholarship" name="scholarship"><br>
+
+  <p class="question">SAVINGS</p>
+  <label class="planText" for="emergency">Emergency Fund:</label><br>
+  <input class="planInput" type="number" id="emergency" name="emergency"><br>
+
+  <label class="planText" for="medical">Medical Savings:</label><br>
+  <input class="planInput" type="number" id="medical" name="medical"><br>
+
+  <label class="planText" for="savings">Savings</label><br>
+  <input class="planInput" type="number" id="savings" name="savings"><br>
+
+  <p class="question">EXPENSES</p>
+  <label class="planText" for="tech">Technology:</label><br>
+  <input class="planInput" type="number" id="tech" name="tech"><br>
+
+  <label class="planText" for="school">School Supplies:</label><br>
+  <input class="planInput" type="number" id="school" name="school"><br>
+
+  <label class="planText" for="food">Food:</label><br>
+  <input class="planInput" type="number" id="food" name="food"><br>
+
+  <label class="planText" for="housing">Housing:</label><br>
+  <input class="planInput" type="number" id="housing" name="housing"><br>
+
+  <label class="planText" for="clothes">Clothes:</label><br>
+  <input class="planInput" type="number" id="clothes" name="clothes"><br>
+
+  <label class="planText" for="recreation">Recreation:</label><br>
+  <input class="planInput" type="number" id="recreation" name="recreation"><br>
+  <input type="submit" value="Submit" onclick="planResults()" /><br>
+
+  <h10 id="h10">Your score: </h10>
+  <h10 id="interpret">.</h10>
+
+</body>
